@@ -6,6 +6,7 @@ const App = () => {
     <>
       {/* Marketing SPA */}
       <MarketingApp />
+      {/* Auth SPA */}
     </>
   );
 };
