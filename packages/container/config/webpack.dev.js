@@ -11,12 +11,12 @@ const devConfig = {
   },
   devServer: {
     port: 8080,
-    // historyApiFallback: {
-    //   index: "index.html",
-    // },
-    historyApiFallback: true,
-    contentBase: "./",
-    hot: true,
+    historyApiFallback: {
+      index: "index.html",
+    },
+    // historyApiFallback: true,
+    // contentBase: "./",
+    // hot: true,
   },
   plugins: [
     new ModuleFederationPlugin({
